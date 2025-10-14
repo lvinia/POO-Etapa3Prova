@@ -6,6 +6,7 @@ public class CriarInimigos : MonoBehaviour
     public Transform[] posicaoDosInimigos;
 
     public float tempoDoNovoInimigo = 15; //seg
+    //public float distanciaInimigo = 5;
 
     private float cronometroInimigo = 0; 
     
@@ -13,6 +14,8 @@ public class CriarInimigos : MonoBehaviour
     {
         
     }
+
+    
     void Update()
     {
         cronometroInimigo += Time.deltaTime;

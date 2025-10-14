@@ -33,6 +33,8 @@ public class Arma : MonoBehaviour
         {
             transform.localScale = new Vector3(1, -1, 1);
         }
+        
+        
         float camDis = camera.transform.position.y - transform.position.y;
         Vector3 mouse = camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, camDis));
             
@@ -44,13 +46,17 @@ public class Arma : MonoBehaviour
         cursor.transform.position = new Vector3(mouse.x, mouse.y, cursor.transform.position.z);
             
         Debug.DrawLine(transform.position, mouse, Color.red);
+
+
         
         if (tempoDeDisparo <= 0 && Input.GetKeyDown(KeyCode.Mouse0))
         {
+            //Debug.Log("Bala disparada");
             GameObject b = Instantiate(bala, saidaDoTiro.position, saidaDoTiro.rotation) as GameObject;
             
             tempoDeDisparo = intervaloDeDisparo;
         }
+
         if (tempoDeDisparo > 0)
         {
             tempoDeDisparo -= Time.deltaTime;

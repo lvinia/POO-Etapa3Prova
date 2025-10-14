@@ -4,6 +4,7 @@ public class Inimigo : Personagem
 {
     [SerializeField]
     private int dano = 1;
+    //public float
     [SerializeField]
     private Transform PosicaoDoPlayer;
     
@@ -80,22 +81,29 @@ public class Inimigo : Personagem
         
         animator.SetBool("Andando",andando);
     }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            // Causa dano ao Player
             int novaVida = collision.gameObject.GetComponent<Personagem>().getVida() - getDano();
             collision.gameObject.GetComponent<Personagem>().setVida(novaVida);
+
+            //collision.gameObject.GetComponent<Personagem>().recebeDano(getDano());
             
             setVida(0);
         }
     }
+
     public void playAudio()
     {
         audioSource.Play();
     }
+
     public void desative()
     {
+        //desativa quando bate no player
          gameObject.SetActive(false);
     }
 }
