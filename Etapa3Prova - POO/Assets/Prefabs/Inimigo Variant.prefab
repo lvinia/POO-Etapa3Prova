@@ -10,27 +10,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 95499531478908555, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.60471046
+      value: 0.52419364
       objectReference: {fileID: 0}
     - target: {fileID: 95499531478908555, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.60471046
+      value: 0.52419364
       objectReference: {fileID: 0}
     - target: {fileID: 95499531478908555, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.60471046
+      value: 0.52419364
       objectReference: {fileID: 0}
     - target: {fileID: 95499531478908555, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.1878
+      value: -5.1763
       objectReference: {fileID: 0}
     - target: {fileID: 95499531478908555, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.50325
+      value: -2.6254
       objectReference: {fileID: 0}
     - target: {fileID: 95499531478908555, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.9504
+      value: -0.90501
       objectReference: {fileID: 0}
     - target: {fileID: 95499531478908555, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: m_LocalRotation.w
@@ -62,19 +62,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 960008205238735440, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: m_Color.b
-      value: 0.754717
+      value: 0.54432184
       objectReference: {fileID: 0}
     - target: {fileID: 960008205238735440, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: m_Color.g
-      value: 0.754717
+      value: 0.54432184
       objectReference: {fileID: 0}
     - target: {fileID: 960008205238735440, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: m_Color.r
-      value: 0.754717
+      value: 0.8301887
+      objectReference: {fileID: 0}
+    - target: {fileID: 960008205238735440, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5077027389440440069, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: m_Name
       value: Inimigo Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601854612376016461, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6614268547235975993, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: dano
@@ -95,6 +103,10 @@ PrefabInstance:
     - target: {fileID: 6615881960506840747, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7039154273065361461, guid: c5e20e7ffede72e428f8c44e9169f881, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
