@@ -160,7 +160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 239145984}
   - component: {fileID: 239145985}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Square (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,8 @@ GameObject:
   m_Component:
   - component: {fileID: 269374206}
   - component: {fileID: 269374207}
-  m_Layer: 0
+  - component: {fileID: 269374208}
+  m_Layer: 5
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,6 +325,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &269374208
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269374205}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.1619939, y: 0.6356614, z: 0.2}
+  m_Center: {x: 0, y: -0.00000011920929, z: 0}
 --- !u!1 &432556662
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,7 +356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 432556663}
   - component: {fileID: 432556664}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Square (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 633257776}
   - component: {fileID: 633257777}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -812,7 +834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 824149670}
   - component: {fileID: 824149671}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Square (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -899,7 +921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 935835027}
   - component: {fileID: 935835028}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Square (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1161,7 +1183,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1318,7 +1340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1215345358}
   - component: {fileID: 1215345359}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Square (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1511,7 +1533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1506419672}
   - component: {fileID: 1506419673}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Square (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1598,7 +1620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1555657957}
   - component: {fileID: 1555657958}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: tile_70_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1614,7 +1636,7 @@ Transform:
   m_GameObject: {fileID: 1555657956}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.8129478, y: -3.7681403, z: -3.6631262}
+  m_LocalPosition: {x: 0.97, y: -3.6, z: -3.6631262}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1685,7 +1707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1575607628}
   - component: {fileID: 1575607629}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1772,7 +1794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1644411247}
   - component: {fileID: 1644411248}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Square (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1859,7 +1881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1784674915}
   - component: {fileID: 1784674916}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Square (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2008,7 +2030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1862297053}
   - component: {fileID: 1862297054}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: tile_72_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2264,7 +2286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2076668073}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Fundo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2372,7 +2394,7 @@ MonoBehaviour:
   - {fileID: 176794408}
   - {fileID: 1854620383}
   - {fileID: 669198120}
-  tempoDoNovoInimigo: 2
+  tempoDoNovoInimigo: 3
 --- !u!4 &2145409046
 Transform:
   m_ObjectHideFlags: 0
